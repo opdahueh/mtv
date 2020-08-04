@@ -59,3 +59,8 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+
+collections:
+    team:
+    output: true
