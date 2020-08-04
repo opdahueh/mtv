@@ -11,7 +11,11 @@ layout: default
 
 
 {% for teams in site.teams %}
-  <p>{{ teams.name }} </p>
+<p>
+  <a href="{{ teams.url }}">
+    {{ teams.name }} </p>
+  </a>
+</p>
 {% endfor %}
   
   
