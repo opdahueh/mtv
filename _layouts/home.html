@@ -10,6 +10,14 @@ layout: default
   {{ content }}
 
 
+{% for teams in site.teams %}
+  <h2>{{ teams.name }} - {{ staff_member.liga_sommer }}</h2>
+  <p>{{ teams.content | markdownify }}</p>
+{% endfor %}
+  
+  
+  
+  
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
