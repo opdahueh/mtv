@@ -9,6 +9,14 @@ layout: default
 
   {{ content }}
 
+  
+#{% for teams in site.teams %}
+#  <h2>{{ teams.name }} - {{ teams.klasse_sommer }}</h2>
+#  <p>{{ teams.content | markdownify }}</p>
+#{% endfor %}  
+  
+  
+  
 
 {% for teams in site.teams %}
 <p>
