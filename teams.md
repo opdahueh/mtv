@@ -1,7 +1,6 @@
 ---
 layout: teams
 title: Teams
-permalink: /teams/
 ---
 
-Unsere Teams:
+Unsere Teams: 24234
