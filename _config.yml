@@ -62,5 +62,5 @@ plugins:
 
 
 collections:
-    teams23:
+    teams:
     output: true
