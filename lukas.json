@@ -1,0 +1,68 @@
+{
+  "sap.card": {
+    "type": "Object",
+    "header": {
+      "icon": {
+        "src": "lukas.jpg"
+      },
+      "title": "Lukas Rüpke",
+      "subTitle": "Cheftrainer"
+    },
+    "content": {
+      "groups": [
+        {
+          "title": "Kontaktdaten",
+          "items": [
+            {
+              "label": "Handy",
+              "value": "+49 177 4117678",
+              "type": "phone"
+            },
+            {
+              "label": "Email",
+              "value": "lukas@tennis-mtv.de",
+              "type": "email"
+            },
+			{
+
+              "label": "Web",
+              "value": "https://www.ruepke-fitness.de",
+              "type": "link"
+            }
+         ]
+        },
+        {
+          "title": "Über mich",
+          "items": [
+            {
+              "label": "Über",
+		      "type": "text",
+              "value": "Ich bin selbstständiger Vollzeit Tennistrainer und gebe derzeit noch im Club zur Vahr e.V. von Montags bis Mittwochs Training. Ab Ende April 2020 werde ich von Donnerstag bis Sonntag als Trainer im Merscheider TV zur Verfügung stehen. Nebenbei bin ich noch Diplom Personal Fitness Trainer. Ich besitze die DTB B-Lizenz. Voraussichtlich werde ich die DTB A-Lizenz im Dezember 2020 erlangen. Außerdem habe ich letztes Jahr die VDT-Ausbildung zum staatlich geprüften Tennislehrer gestartet (Prüfungstermin: November/Dezember 2020). Für die Sommersaison 2021 bin ich im TC Bredeney (2. Bundesliga) gemeldet."
+
+            }
+          ]
+        },
+        {
+          "title": "Erfolge",
+          "items": [
+            {
+              "label": "DTB Herrenrangliste",
+		      "type": "text",
+              "value": "#44 (2019) #51 (aktuell)"
+            },
+            {
+              "label": "ATP Weltrangliste",
+              "value": "#767 (2017)",
+              "type": "text"
+            },
+            {
+              "label": "Sonstige Titel",
+              "value": "4-facher Nordostdeutscher Meister der Herren",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
